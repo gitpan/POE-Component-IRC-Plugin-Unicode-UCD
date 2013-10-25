@@ -1,5 +1,11 @@
 Revision history for POE-Component-IRC-Plugin-Unicode-UCD
 
-0.001   Mar 10, 2008
-        First version, released on an unsuspecting world.
+0.002   2013-10-24
+        - Updated "Changes" file to conform with the CPAN::Changes::Spec
+        - Fixed pod errors (for Kwalitee)
+        - Added minimum perl version in Build.PL
+        - Fixed t/kwalitee.t to run only with RELEASE_BUILD
+
+0.001   2008-03-10
+        - First version, released on an unsuspecting world.
 

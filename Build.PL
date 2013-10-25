@@ -15,7 +15,9 @@ my $builder = Module::Build->new(
         'POE::Component::IRC::Plugin::BaseWrap' => 0.001,
         'Unicode::UCD'                          => 0.24,
         'Encode'                                => 2.12,
+        perl => 5.006,
     },
+    configure_requires => { 'Module::Build' => 0.40 },
     add_to_cleanup      => [ 'POE-Component-IRC-Plugin-Unicode-UCD-*' ],
     create_makefile_pl => 'traditional',
 );

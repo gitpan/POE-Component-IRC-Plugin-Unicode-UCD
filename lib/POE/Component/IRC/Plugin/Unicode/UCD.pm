@@ -3,7 +3,7 @@ package POE::Component::IRC::Plugin::Unicode::UCD;
 use warnings;
 use strict;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use base 'POE::Component::IRC::Plugin::BaseWrap';
 
@@ -70,6 +70,8 @@ sub _unip {
 1;
 
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
