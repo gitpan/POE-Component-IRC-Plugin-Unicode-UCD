@@ -16,7 +16,7 @@ name: POE-Component-IRC-Plugin-Unicode-UCD
 provides:
   POE::Component::IRC::Plugin::Unicode::UCD:
     file: lib/POE/Component/IRC/Plugin/Unicode/UCD.pm
-    version: 0.002
+    version: 0.003
 requires:
   Carp: 1.04
   Encode: 2.12
@@ -25,4 +25,4 @@ requires:
   perl: 5.006
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.002
+version: 0.003

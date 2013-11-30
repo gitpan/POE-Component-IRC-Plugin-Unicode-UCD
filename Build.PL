@@ -21,5 +21,8 @@ my $builder = Module::Build->new(
     add_to_cleanup      => [ 'POE-Component-IRC-Plugin-Unicode-UCD-*' ],
     create_makefile_pl => 'traditional',
 );
+if ( $ENV{RELEASE_TESTING} ) {
+    system('pod2text lib/POE/Component/IRC/Plugin/Unicode/UCD.pm > README');
+}
 
 $builder->create_build_script();
